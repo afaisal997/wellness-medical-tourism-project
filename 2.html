@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.css">
+    <title>Video Gallery</title>
+</head>
+<body>
+    <h1>Our Beloved Patients and their reviews...</h1>
+
+<section class="gallery">
+    <div class="gallery-item" onclick="openVideo('video1.mp4')">
+        <video src="video1.mp4" alt="Video 1" controls></video>
+    </div>
+    <div class="gallery-item" onclick="openVideo('video2.mp4')">
+        <video src="video2.mp4" alt="Video 2" controls></video>
+    </div>
+    <!-- Add more video items as needed -->
+    <div class="gallery-item" onclick="openVideo('video2.mp4')">
+        <video src="video3.mp4" alt="Video 2" controls></video>
+    </div>
+    <div class="gallery-item" onclick="openVideo('video2.mp4')">
+        <video src="video4.mp4" alt="Video 2" controls></video>
+    </div>
+    <div class="gallery-item" onclick="openVideo('video2.mp4')">
+        <video src="video5.mp4" alt="Video 2" controls></video>
+    </div>
+    <div class="gallery-item" onclick="openVideo('video2.mp4')">
+        <video src="video6.mp4" alt="Video 2" controls></video>
+    </div>
+
+</section>
+
+<div class="video-modal" id="videoModal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeVideoModal()">&times;</span>
+        <video id="modalVideo" controls></video>
+    </div>
+</div>
+
+<script src="2.js"></script>
+</body>
+</html>

@@ -1,0 +1,402 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .container {
+    max-width: 4100px;
+    margin: 0 auto;
+    padding: 40px;
+
+  }
+  .container,h2{
+    margin-bottom: 5px;
+  }
+  
+  header {
+    background-image: url("salm.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px 0;
+    color: #07008c;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  
+  nav {
+    margin-bottom: 22px;
+  }
+  nav img {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 25px;
+  }
+  
+  nav ul li a {
+    color: #1f0795;
+    text-decoration: none;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #300ea9;
+    color: #d5cfcf;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    width: 50%;
+}
+
+/* Add a media query for screens with a maximum width of 768px (adjust as needed) */
+@media (max-width: 768px) {
+    .btn {
+        width: 100%; /* Make the button full width on smaller screens */
+    }
+}
+
+  section {
+    padding: 60px 0;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+  
+    color: #fff;
+    text-align: center;
+    padding: 30px 10%;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  form textarea {
+    height: 120px;
+  }
+  
+  form button {
+    display: inline-block;
+    background-color: #003366;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #002255;
+  }
+  /* styles.css */
+
+/* ... existing styles ... */
+
+.service {
+  background-color: #f4e1e1;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(3, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+.service img {
+  width: 500px;
+  height: 480px;
+  object-fit: cove;
+  border-radius: 10%;
+  margin-bottom: 40px;
+}
+
+.service h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.service p {
+  font-size: 19px;
+  line-height: 2;
+}
+
+/* ... remaining styles ... */
+#about{
+
+  padding: 80px 10%;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media img {
+  width: 20px;
+  height: 30px;
+  margin-right: 10px;
+}
+.sh,a{
+  text-decoration: none;
+  color:#002255;
+}
+
+#contact {
+  background-image: url("salm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  color: #d8d0d0;
+}
+
+/* CSS for phone responsiveness */
+@media screen and (max-width: 600px) {
+  section#top {
+    text-align: center; /* Center-align the content */
+  }
+
+  nav {
+    display: block; /* Display navigation items vertically */
+    text-align: center; /* Center-align navigation items */
+    margin-top: 20px; /* Add some spacing */
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+
+  p {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  a.btn {
+    display: block;
+    margin: 20px auto; /* Center-align the button and add spacing */
+  }
+}
+/* CSS for phone responsiveness */
+@media screen and (max-width: 600px) {
+  section#about {
+    padding: 20px; /* Add spacing around the content */
+  }
+
+  h2 {
+    font-size: 24px; /* Increase font size for smaller screens */
+  }
+
+  p {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Style for individual service items */
+.service-item {
+  text-align: center;
+  width: 200px;
+}
+
+/* Style for service item icons */
+.service-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+/* Style for service item titles */
+.service-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.service {
+  margin-bottom: 40px;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+  .service {
+      display: flex;
+      align-items: center;
+  }
+
+  .service img {
+      max-width: 40%;
+      margin-right: 20px;
+  }
+
+  .service h3 {
+      font-size: 24px;
+  }
+
+  .service p {
+      font-size: 16px;
+  }
+}
+
+/* Styles for smaller screens (phones) */
+@media screen and (max-width: 767px) {
+  .service img {
+      width: 100%;
+  }
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 767px) {
+  .address {
+      text-align: center;
+  }
+
+  iframe {
+      width: 100%;
+      height: 250px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form select,
+  form input[type="Disease"],
+  form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .btn {
+      width: 50%;
+  }
+
+  .sh {
+      text-align: center;
+  }
+
+  footer {
+      text-align: center;
+  }
+
+  .social-media {
+      margin-top: 10px;
+  }
+}
+/* Add this CSS in your stylesheet or inside a <style> tag in your HTML */
+
+.whatsapp-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color:  #300ea9; /* WhatsApp green */
+  color:white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color:  #300ea9; /* Darker WhatsApp green on hover */
+}
+
+/* Style the Font Awesome icon */
+.whatsapp-button i {
+  margin-right: 5px;
+}
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  padding: 25px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  opacity: 2;
+  transition: opacity 0.3s ease-in-out;
+  animation: moveUpDown 1s infinite alternate; /* Add animation property */
+}
+
+.whatsapp-button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+}
+
+@keyframes moveUpDown {
+  from {
+      bottom: 20px;
+  }
+  to {
+      bottom: 40px;
+  }
+}
+
+
